@@ -10,7 +10,8 @@ Components
   - zip and mood input
   - saveMood() method to save data appropriately in browser storage?
 - ShowMoods
-  - maps many sub-ShowMood components
+  - retrieves ShowMood data from browser storage,
+  - maps to many sub-ShowMood components
   - ShowMood
     - mood, simplified weather data (from InputMood.saveMood()), and date
 
