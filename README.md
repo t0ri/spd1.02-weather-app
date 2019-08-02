@@ -1,6 +1,6 @@
 # Weather&Mood App
 ![App Image](https://i.gyazo.com/ce679ba9c9d7647568862439f03dd1ff.png)
-Weather&Mood allows you to track your emotions with the weather, assigned as a 2-day take home challenge for SPD 1.02 at Make School.
+Track your emotions with the weather with my 2-day take home challenge for SPD 1.02 at Make School.
 
 [Weather&Mood is live here!](http://victoriamurray.me/spd1.02-weather-app/)
 
@@ -11,18 +11,20 @@ Weather&Mood allows you to track your emotions with the weather, assigned as a 2
 - React.js
 - Sass
 - `variables.(s)css` imported from my CSS framework, [Addendum CSS](https://github.com/t0ri/addendum-css)
-- data from OpenWeatherMap API
+- data from [OpenWeatherMap API](https://openweathermap.org/api)
 - deployed with Github Pages
 
 ### To Do
 Bugs:
 - Click delay onSubmit?
+
 Refactoring:
 - ShowMood as functional component
 - Clean up Sass files
 - Fix all CSS/SCSS file structure
 - Add CSS comments?
 - Continue to add comments throughout if needed
+
 Stretch Goals:
 - Geolocation API to autodetect where you are
 - Alternative to localStorage
@@ -38,4 +40,4 @@ Stretch Goals:
   - retrieves ShowMood data from browser storage,
   - maps to many sub-ShowMood components
   - ShowMood
-   - mood, simplified weather data (from InputMood.saveMood()), and date
+    - mood, simplified weather data (from InputMood.saveMood()), and date
