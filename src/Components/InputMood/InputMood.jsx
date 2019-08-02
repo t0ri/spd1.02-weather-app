@@ -16,7 +16,7 @@ export default class InputMood extends Component {
   }
 
   getAPIData(zip) {
-    const key = '150d08ec845e46d771bfc2e74380f543'
+    const key = '😅'
     const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&appid=${key}`
     // Fetch OpenWeatherMap Data from given zip code
     // set data to `this.state.weatherData`
