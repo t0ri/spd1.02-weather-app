@@ -10,6 +10,7 @@ Track your emotions with the weather with my 2-day take home challenge for SPD 1
 ### Technologies
 - React.js
 - Sass
+- localStorage Browser API
 - `variables.(s)css` imported from my CSS framework, [Addendum CSS](https://github.com/t0ri/addendum-css)
 - data from [OpenWeatherMap API](https://openweathermap.org/api)
 - deployed with Github Pages
