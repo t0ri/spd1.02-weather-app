@@ -1,0 +1,29 @@
+@import "../../variables";
+
+section#show-mood {
+  height: auto;
+
+  @include flexbox();
+  @include flex-flow(column nowrap);
+  @include justify-content(space-between);
+  @include align-items(center);
+
+  div.show-mood-component {
+    width: 40vw;
+
+    margin: 10px;
+
+    @include flexbox();
+    @include flex-flow(row nowrap);
+    @include justify-content(space-around);
+    @include align-items(center);
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    background-color: $color-background;
+
+    color: $color-primary;
+    font-size: 1.2em;
+  }
+}

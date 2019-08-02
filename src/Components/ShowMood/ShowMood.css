@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+section#show-mood {
+  height: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -moz-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+section#show-mood div.show-mood-component {
+  width: 40vw;
+  margin: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #68466f;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=ShowMood.css.map */

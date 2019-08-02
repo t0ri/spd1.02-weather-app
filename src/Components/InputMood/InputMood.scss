@@ -1,5 +1,65 @@
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+@import "../../variables";
+
+section#input-mood {
+  height: 40vh;
+  width: 40vw;
+
+  margin: 2vh;
+
+  font-size: $font-size;
+
+  @include flexbox();
+  @include flex-flow(column nowrap);
+  @include justify-content(space-around);
+  @include align-items(center);
+
+  border-radius: 10px;
+  border: none;
+
+  background-color: $color-background;
+
+  &::after {
+    content: ' ';
+    position: relative;
+    border-bottom: 3px solid $color-off-white;
+  }
+
+  input {
+    width: 200px;
+
+    padding: 5px;
+    
+    text-align: center;
+    font-size: 1.4em;
+
+    border: none;
+    border-bottom: 2px solid $color-primary;
+    
+    outline: none;
+
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none; 
+      margin: 0; 
+    }
+  }
+
+  select {
+    height: 50px;
+
+    font-size: 1.4em;
+  }
+
+  button {
+    height: 50px;
+    width: 150px;
+    
+    color: $color-primary;
+    font-size: 1.25em;
+    font-weight: 600;
+
+    border: none;
+
+    cursor: pointer;
+  }
 }

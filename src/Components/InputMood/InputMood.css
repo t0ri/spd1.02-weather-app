@@ -1,7 +1,62 @@
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,600&display=swap");
+section#input-mood {
+  height: 40vh;
+  width: 40vw;
+  margin: 2vh;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -moz-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+}
+section#input-mood::after {
+  content: " ";
+  position: relative;
+  border-bottom: 3px solid #feefef;
+}
+section#input-mood input {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.4em;
+  border: none;
+  border-bottom: 2px solid #68466f;
+  outline: none;
+}
+section#input-mood input::-webkit-inner-spin-button, section#input-mood input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+section#input-mood select {
+  height: 50px;
+  font-size: 1.4em;
+}
+section#input-mood button {
+  height: 50px;
+  width: 150px;
+  color: #68466f;
+  font-size: 1.25em;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=InputMood.css.map */
